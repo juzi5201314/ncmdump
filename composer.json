@@ -1,0 +1,8 @@
+{
+    "require": {
+        "katzgrau/klogger": "dev-master",
+        "ext-openssl": "*",
+        "ext-json": "*",
+        "spatie/async": "^1.1"
+    }
+}

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83f1b16c-173f-4525-b5bd-215c9da9c787" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/katzgrau/klogger/src/Logger.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/katzgrau/klogger/src/Logger.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/katzgrau/klogger" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/spatie/async" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1TBJSBbDmeeo2Vnt0y7bCAEKNHL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
+  </component>
+  <component name="RunManager">
+    <configuration name="run" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/main.php" scriptParameters="&quot;$USER_HOME$/音乐/CloudMusic/&quot;">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.3" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83f1b16c-173f-4525-b5bd-215c9da9c787" name="Default Changelist" comment="" />
+      <created>1572927552671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572927552671</updated>
+      <workItem from="1572927553936" duration="15185000" />
+      <workItem from="1573184077056" duration="29327000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2338" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1573215282417">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2338" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573215282417" />
+    <state x="2663" y="311" width="447" height="485" key="FileChooserDialogImpl" timestamp="1573215506759">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2663" y="311" width="447" height="485" key="FileChooserDialogImpl/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573215506759" />
+    <state width="1874" height="254" key="GridCell.Tab.0.bottom" timestamp="1573215993152">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="254" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573215993152" />
+    <state width="1874" height="254" key="GridCell.Tab.0.center" timestamp="1573215993152">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="254" key="GridCell.Tab.0.center/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573215993152" />
+    <state width="1874" height="254" key="GridCell.Tab.0.left" timestamp="1573215993152">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="254" key="GridCell.Tab.0.left/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573215993152" />
+    <state width="1874" height="254" key="GridCell.Tab.0.right" timestamp="1573215993152">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="254" key="GridCell.Tab.0.right/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573215993152" />
+    <state x="2675" y="474" width="399" height="158" key="NewPhpFileDialog" timestamp="1572930402718">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2675" y="474" width="399" height="158" key="NewPhpFileDialog/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1572930402718" />
+    <state x="2369" y="188" width="1273" height="731" key="SettingsEditor" timestamp="1573206091757">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2369" y="188" width="1273" height="731" key="SettingsEditor/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573206091757" />
+    <state x="2446" y="162" width="857" height="782" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1573198950013">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2446" y="162" width="857" height="782" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573198950013" />
+    <state x="2555" y="328" width="640" height="450" key="git4idea.merge.GitPullDialog" timestamp="1573215704370">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2555" y="328" width="640" height="450" key="git4idea.merge.GitPullDialog/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573215704370" />
+    <state x="2599" y="192" width="551" height="722" key="refactoring.ChangeSignatureDialog" timestamp="1573189908933">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2599" y="192" width="551" height="722" key="refactoring.ChangeSignatureDialog/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573189908933" />
+    <state x="2605" y="460" width="540" height="187" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1573184194807">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2605" y="460" width="540" height="187" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573184194807" />
+  </component>
+</project>
