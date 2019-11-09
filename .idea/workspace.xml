@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83f1b16c-173f-4525-b5bd-215c9da9c787" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/katzgrau/klogger/src/Logger.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/katzgrau/klogger/src/Logger.php" afterDir="false" />
+    <list default="true" id="83f1b16c-173f-4525-b5bd-215c9da9c787" name="Default Changelist" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/ncmdump.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ncmdump.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/katzgrau/klogger" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/katzgrau/klogger" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -77,12 +79,25 @@
       <option name="presentableId" value="Default" />
       <updated>1572927552671</updated>
       <workItem from="1572927553936" duration="15185000" />
-      <workItem from="1573184077056" duration="29327000" />
+      <workItem from="1573184077056" duration="29659000" />
+      <workItem from="1573263446463" duration="922000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1573216014743</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573216014743</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2338" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1573215282417">
@@ -93,22 +108,22 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2663" y="311" width="447" height="485" key="FileChooserDialogImpl/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573215506759" />
-    <state width="1874" height="254" key="GridCell.Tab.0.bottom" timestamp="1573215993152">
+    <state width="1874" height="244" key="GridCell.Tab.0.bottom" timestamp="1573264359332">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="254" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573215993152" />
-    <state width="1874" height="254" key="GridCell.Tab.0.center" timestamp="1573215993152">
+    <state width="1874" height="244" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573264359332" />
+    <state width="1874" height="244" key="GridCell.Tab.0.center" timestamp="1573264359331">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="254" key="GridCell.Tab.0.center/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573215993152" />
-    <state width="1874" height="254" key="GridCell.Tab.0.left" timestamp="1573215993152">
+    <state width="1874" height="244" key="GridCell.Tab.0.center/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573264359331" />
+    <state width="1874" height="244" key="GridCell.Tab.0.left" timestamp="1573264359331">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="254" key="GridCell.Tab.0.left/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573215993152" />
-    <state width="1874" height="254" key="GridCell.Tab.0.right" timestamp="1573215993152">
+    <state width="1874" height="244" key="GridCell.Tab.0.left/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573264359331" />
+    <state width="1874" height="244" key="GridCell.Tab.0.right" timestamp="1573264359331">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="254" key="GridCell.Tab.0.right/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573215993152" />
+    <state width="1874" height="244" key="GridCell.Tab.0.right/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573264359331" />
     <state x="2675" y="474" width="399" height="158" key="NewPhpFileDialog" timestamp="1572930402718">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -117,6 +132,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2369" y="188" width="1273" height="731" key="SettingsEditor/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573206091757" />
+    <state x="2475" y="285" width="800" height="537" key="Vcs.Push.Dialog.v2" timestamp="1573216017329">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2475" y="285" width="800" height="537" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573216017329" />
     <state x="2446" y="162" width="857" height="782" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1573198950013">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
