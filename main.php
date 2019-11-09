@@ -2,6 +2,21 @@
 
 include_once 'vendor/autoload.php';
 
+use Performance\Performance;
+
+global $args;
+$args = new CliArgs\CliArgs(array(
+    'debug' => array(
+        'default' => false,
+        'filter' => 'bool'
+    ),
+    'process' => array(
+        'alias' => 'p',
+        'default' => 12,
+        'filter' => 'int'
+    )
+));
+
 global $logger;
 $logger = new \Katzgrau\KLogger\Logger('php://stdout');
 
@@ -11,20 +26,27 @@ $arg2 = $argv[2];
 if (file_exists($arg1))
     main(is_file($arg1) ? array($arg1) : glob($arg1 . '/*.ncm'), $arg2);
 else if (!isset($arg1))
-    $logger->error('main.php [*.ncm file/dir] <output path>');
+    $logger->error('main.php [*.ncm file/dir] <output path> --debug=0|1 -p num');
 else
     $logger->error('file/dir does not exist!');
+if ($args->getArg('debug'))
+    Performance::results();
 
 function main(array $files, string $output = null) {
+    Performance::point('初始化异步池');
+    global $args;
     global $logger;
     $logger->info('Start convert musics.');
 
     $time = microtime(true);
     $pool = \Spatie\Async\Pool::create();
-    $pool->concurrency(64);
+    $pool->concurrency($args->getArg('process'));
     $pool->autoload('main.php');
-
+    if (!\Spatie\Async\Pool::isSupported())
+        $logger->warning('Your php environment does not support multiple processes. A single process will now be used.');
+    Performance::finish();
     foreach ($files as $index => $file) {
+        Performance::point("添加任务{{$index}}");
         $logger->info("Start processing {{$index}}. {$file}");
         $pool[] = async(function () use ($file, $output) {
             $converter = new Converter();
@@ -34,10 +56,11 @@ function main(array $files, string $output = null) {
         })->catch(function (\Exception $e) use ($logger) {
             $logger->error(explode("\n", $e->getMessage())[0]);
         });
+        Performance::finish();
     }
-
+    Performance::point('等待全部任务完成await');
     await($pool);
-
+    Performance::finish();
     $time = round(microtime(true) - $time, 2);
     $logger->info("done. Time consuming {$time}s");
     $logger->info('Convert ' . count($files) . ' music files in total.');

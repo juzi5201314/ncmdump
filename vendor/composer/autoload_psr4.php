@@ -9,6 +9,7 @@ return array(
     'Symfony\\Component\\Process\\' => array($vendorDir . '/symfony/process'),
     'Spatie\\Async\\' => array($vendorDir . '/spatie/async/src'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
+    'Performance\\' => array($vendorDir . '/bvanhoekelen/performance/src'),
     'Opis\\Closure\\' => array($vendorDir . '/opis/closure/src'),
     'Katzgrau\\KLogger\\' => array($vendorDir . '/katzgrau/klogger/src'),
 );

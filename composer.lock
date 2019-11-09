@@ -4,8 +4,168 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "41a7cc3499f0803841d873ec5a543dd5",
+    "content-hash": "77079e3d340ff3c4f8cdfde2c8a034c0",
     "packages": [
+        {
+            "name": "bvanhoekelen/performance",
+            "version": "v2.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bvanhoekelen/performance.git",
+                "reference": "597003c45bda39af79e8fc767eaabb6aa3784408"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bvanhoekelen/performance/zipball/597003c45bda39af79e8fc767eaabb6aa3784408",
+                "reference": "597003c45bda39af79e8fc767eaabb6aa3784408",
+                "shasum": ""
+            },
+            "require": {
+                "bvanhoekelen/terminal-style": "^1.0",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "illuminate/database": "^5.4",
+                "illuminate/events": "^5.4",
+                "larapack/dd": "1.*",
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Performance\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "B. van Hoekelen",
+                    "homepage": "https://github.com/bvanhoekelen/performance"
+                }
+            ],
+            "description": "PHP performance tool analyser your script on time, memory usage and db query. Support Laravel and Composer for web, web console and command line interfaces.",
+            "keywords": [
+                "analyser",
+                "command line",
+                "compressor",
+                "database",
+                "database query log",
+                "export",
+                "laravel",
+                "memory",
+                "performance",
+                "performance tool",
+                "php",
+                "php performance analyser",
+                "php performance tool",
+                "php-performance",
+                "query",
+                "query analyser",
+                "query log",
+                "terminal",
+                "time",
+                "web"
+            ],
+            "time": "2019-03-31T14:41:23+00:00"
+        },
+        {
+            "name": "bvanhoekelen/terminal-style",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bvanhoekelen/terminal-style.git",
+                "reference": "e851be5b3c46f884be1096f9e01d3d5e90742194"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bvanhoekelen/terminal-style/zipball/e851be5b3c46f884be1096f9e01d3d5e90742194",
+                "reference": "e851be5b3c46f884be1096f9e01d3d5e90742194",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "larapack/dd": "1.*",
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/terminal-style.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "B. van Hoekelen",
+                    "homepage": "https://github.com/bvanhoekelen/terminal-style"
+                }
+            ],
+            "description": "Return your terminal message in style! Change the text style, text color and text background color form the terminal interface with ANSI color codes. The terminal style tool support Laravel and Composer.",
+            "keywords": [
+                "8-bits background color",
+                "ANSI color codes",
+                "ansi",
+                "bash",
+                "colors",
+                "command line",
+                "command line colors",
+                "command line style",
+                "php",
+                "php terminal colors",
+                "php terminal style",
+                "terminal",
+                "terminal colors"
+            ],
+            "time": "2018-02-19T20:46:00+00:00"
+        },
+        {
+            "name": "cheprasov/php-cli-args",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cheprasov/php-cli-args.git",
+                "reference": "f40272d6ca038023ce0f3fa927490f0c3dcfa652"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cheprasov/php-cli-args/zipball/f40272d6ca038023ce0f3fa927490f0c3dcfa652",
+                "reference": "f40272d6ca038023ce0f3fa927490f0c3dcfa652",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.8.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "CliArgs\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Cheprasov",
+                    "email": "acheprasov84@gmail.com"
+                }
+            ],
+            "description": "Easy way to gets options from the command line argument list",
+            "homepage": "http://github.com/cheprasov/php-cli-args",
+            "time": "2019-02-02T19:40:45+00:00"
+        },
         {
             "name": "katzgrau/klogger",
             "version": "dev-master",

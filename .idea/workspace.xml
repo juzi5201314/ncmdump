@@ -1,10 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83f1b16c-173f-4525-b5bd-215c9da9c787" name="Default Changelist" comment="update">
+    <list default="true" id="83f1b16c-173f-4525-b5bd-215c9da9c787" name="Default Changelist" comment="将原来匿名的Converter类独立出来。">
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/BACKLOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/examples/01_simply_test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/examples/02_simply_test_with_label.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/examples/03_config_console_live.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/examples/04_config_trim.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/examples/05_config_enable_tool.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/examples/06_display_message.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/examples/07_config_query_log.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/examples/08_export.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/examples/09_config_nice_label.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/examples/10_config_run_information.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/examples/11_measurments_are_more_accurate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/examples/12_multiple_points.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/examples/13_prevent_clear_screen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/examples/14_use_exceptions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/examples/helper/UseEloquent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/examples/helper/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/src/Config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/src/Lib/Handlers/ConfigHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/src/Lib/Handlers/ExportHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/src/Lib/Handlers/PerformanceHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/src/Lib/Holders/CalculateTotalHolder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/src/Lib/Holders/InformationHolder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/src/Lib/Holders/QueryLineHolder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/src/Lib/Holders/QueryLogHolder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/src/Lib/Interfaces/ExportInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/src/Lib/Point.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/src/Lib/Presenters/Calculate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/src/Lib/Presenters/ConsolePresenter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/src/Lib/Presenters/DisplayHtml.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/src/Lib/Presenters/DisplayScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/src/Lib/Presenters/Formatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/src/Lib/Presenters/Presenter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/src/Lib/Presenters/WebPresenter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/performance/src/Performance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/BACKLOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-cyan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-danger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-dark-gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-light-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-light-cyan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-light-gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-light-green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-light-magenta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-light-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-light-yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-magenta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-primary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/background-color-yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-cyan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-danger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-dark-gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-light-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-light-cyan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-light-gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-light-green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-light-magenta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-light-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-light-yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-magenta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-primary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-color-yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-style-blink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-style-bold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-style-default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-style-dim.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-style-hidden.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-style-italic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-style-password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-style-reverse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/examples/text-style-underlined.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/terminal-all-styles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/terminal-background-color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/terminal-custom-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/terminal-text-color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/assets/terminal-text-style.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/examples/01_change_color.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/examples/02_change_background_color.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/examples/03_change_style.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/examples/04_show_all.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/examples/05_custom_background_color.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style/src/terminal-style.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/cheprasov/php-cli-args/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/cheprasov/php-cli-args/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/cheprasov/php-cli-args/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/cheprasov/php-cli-args/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/cheprasov/php-cli-args/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/cheprasov/php-cli-args/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/cheprasov/php-cli-args/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/cheprasov/php-cli-args/src/CliArgs/CliArgs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/cheprasov/php-cli-args/src/CliArgs/Exception/ConfigErrorException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/cheprasov/php-cli-args/src/CliArgs/Exception/Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/cheprasov/php-cli-args/src/autoloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/cheprasov/php-cli-args/tests/Build/VersionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/cheprasov/php-cli-args/tests/Functional/CliArgsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/cheprasov/php-cli-args/tests/Functional/ScriptTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/cheprasov/php-cli-args/tests/Functional/testScript.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/cheprasov/php-cli-args/tests/Unit/CliArgsTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ncmdump.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ncmdump.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/katzgrau/klogger" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/katzgrau/klogger" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,16 +176,22 @@
       <path value="$PROJECT_DIR$/vendor/symfony/process" />
       <path value="$PROJECT_DIR$/vendor/opis/closure" />
       <path value="$PROJECT_DIR$/vendor/spatie/async" />
+      <path value="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style" />
+      <path value="$PROJECT_DIR$/vendor/bvanhoekelen/performance" />
+      <path value="$PROJECT_DIR$/vendor/cheprasov/php-cli-args" />
     </include_path>
   </component>
   <component name="ProjectId" id="1TBJSBbDmeeo2Vnt0y7bCAEKNHL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -64,6 +210,9 @@
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 7.3" />
         </PhpTestInterpreterSettings>
+        <envs>
+          <env name="TERM" value="xterm-256color" />
+        </envs>
       </CommandLine>
       <method v="2" />
     </configuration>
@@ -80,7 +229,7 @@
       <updated>1572927552671</updated>
       <workItem from="1572927553936" duration="15185000" />
       <workItem from="1573184077056" duration="29659000" />
-      <workItem from="1573263446463" duration="922000" />
+      <workItem from="1573263446463" duration="5426000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1573216014743</created>
@@ -89,41 +238,50 @@
       <option name="project" value="LOCAL" />
       <updated>1573216014743</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="将原来匿名的Converter类独立出来。">
+      <created>1573264434123</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573264434123</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="将原来匿名的Converter类独立出来。" />
+    <option name="LAST_COMMIT_MESSAGE" value="将原来匿名的Converter类独立出来。" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2338" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1573215282417">
+    <state x="2338" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1573269524145">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2338" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573215282417" />
+    <state x="2338" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573269524145" />
     <state x="2663" y="311" width="447" height="485" key="FileChooserDialogImpl" timestamp="1573215506759">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2663" y="311" width="447" height="485" key="FileChooserDialogImpl/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573215506759" />
-    <state width="1874" height="244" key="GridCell.Tab.0.bottom" timestamp="1573264359332">
+    <state width="1874" height="266" key="GridCell.Tab.0.bottom" timestamp="1573269644909">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="244" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573264359332" />
-    <state width="1874" height="244" key="GridCell.Tab.0.center" timestamp="1573264359331">
+    <state width="1874" height="266" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573269644909" />
+    <state width="1874" height="266" key="GridCell.Tab.0.center" timestamp="1573269644909">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="244" key="GridCell.Tab.0.center/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573264359331" />
-    <state width="1874" height="244" key="GridCell.Tab.0.left" timestamp="1573264359331">
+    <state width="1874" height="266" key="GridCell.Tab.0.center/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573269644909" />
+    <state width="1874" height="266" key="GridCell.Tab.0.left" timestamp="1573269644909">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="244" key="GridCell.Tab.0.left/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573264359331" />
-    <state width="1874" height="244" key="GridCell.Tab.0.right" timestamp="1573264359331">
+    <state width="1874" height="266" key="GridCell.Tab.0.left/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573269644909" />
+    <state width="1874" height="266" key="GridCell.Tab.0.right" timestamp="1573269644909">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="244" key="GridCell.Tab.0.right/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573264359331" />
+    <state width="1874" height="266" key="GridCell.Tab.0.right/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573269644909" />
     <state x="2675" y="474" width="399" height="158" key="NewPhpFileDialog" timestamp="1572930402718">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -132,14 +290,18 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2369" y="188" width="1273" height="731" key="SettingsEditor/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573206091757" />
-    <state x="2475" y="285" width="800" height="537" key="Vcs.Push.Dialog.v2" timestamp="1573216017329">
+    <state x="2475" y="285" width="800" height="537" key="Vcs.Push.Dialog.v2" timestamp="1573264435394">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2475" y="285" width="800" height="537" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573216017329" />
+    <state x="2475" y="285" width="800" height="537" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573264435394" />
     <state x="2446" y="162" width="857" height="782" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1573198950013">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2446" y="162" width="857" height="782" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573198950013" />
+    <state x="2516" y="146" width="727" height="813" key="find.popup" timestamp="1573269001416">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2516" y="146" width="727" height="813" key="find.popup/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1573269001416" />
     <state x="2555" y="328" width="640" height="450" key="git4idea.merge.GitPullDialog" timestamp="1573215704370">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

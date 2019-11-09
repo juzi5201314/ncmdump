@@ -7,6 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInit288e1bc3eb8ef966bf409eebd40faf69
 {
     public static $files = array (
+        '6a2d6610a335476b559f7c966bce1ca3' => __DIR__ . '/..' . '/bvanhoekelen/terminal-style/src/terminal-style.php',
         '538ca81a9a966a6716601ecf48f4eaef' => __DIR__ . '/..' . '/opis/closure/functions.php',
         '7dd996d98a91d095f100c75e0b9e2391' => __DIR__ . '/..' . '/spatie/async/src/helpers.php',
     );
@@ -20,6 +21,7 @@ class ComposerStaticInit288e1bc3eb8ef966bf409eebd40faf69
         'P' => 
         array (
             'Psr\\Log\\' => 8,
+            'Performance\\' => 12,
         ),
         'O' => 
         array (
@@ -44,6 +46,10 @@ class ComposerStaticInit288e1bc3eb8ef966bf409eebd40faf69
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
         ),
+        'Performance\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/bvanhoekelen/performance/src',
+        ),
         'Opis\\Closure\\' => 
         array (
             0 => __DIR__ . '/..' . '/opis/closure/src',
@@ -51,6 +57,16 @@ class ComposerStaticInit288e1bc3eb8ef966bf409eebd40faf69
         'Katzgrau\\KLogger\\' => 
         array (
             0 => __DIR__ . '/..' . '/katzgrau/klogger/src',
+        ),
+    );
+
+    public static $prefixesPsr0 = array (
+        'C' => 
+        array (
+            'CliArgs\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/cheprasov/php-cli-args/src',
+            ),
         ),
     );
 
@@ -63,6 +79,7 @@ class ComposerStaticInit288e1bc3eb8ef966bf409eebd40faf69
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit288e1bc3eb8ef966bf409eebd40faf69::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit288e1bc3eb8ef966bf409eebd40faf69::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit288e1bc3eb8ef966bf409eebd40faf69::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit288e1bc3eb8ef966bf409eebd40faf69::$classMap;
 
         }, null, ClassLoader::class);

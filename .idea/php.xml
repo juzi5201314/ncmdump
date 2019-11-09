@@ -8,6 +8,9 @@
       <path value="$PROJECT_DIR$/vendor/symfony/process" />
       <path value="$PROJECT_DIR$/vendor/opis/closure" />
       <path value="$PROJECT_DIR$/vendor/spatie/async" />
+      <path value="$PROJECT_DIR$/vendor/bvanhoekelen/terminal-style" />
+      <path value="$PROJECT_DIR$/vendor/bvanhoekelen/performance" />
+      <path value="$PROJECT_DIR$/vendor/cheprasov/php-cli-args" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7" />

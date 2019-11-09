@@ -3,6 +3,8 @@
         "katzgrau/klogger": "dev-master",
         "ext-openssl": "*",
         "ext-json": "*",
-        "spatie/async": "^1.1"
+        "spatie/async": "^1.1",
+        "bvanhoekelen/performance": "^2.5",
+        "cheprasov/php-cli-args": "^3.0"
     }
 }
