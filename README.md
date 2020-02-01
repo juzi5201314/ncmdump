@@ -7,7 +7,7 @@ No cover and audio metadata, Because I didn't find a suitable audio file process
 # Usage
 ```main.php [*.ncm file/dir] <output path> --debug=0|1 -p num```  
 ```
---process=num pr -p num
+--process=num or -p num
 ```
 Set the number of processes used. Default 12.
 
